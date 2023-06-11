@@ -2,7 +2,9 @@ package dto;
 
 import java.io.Serializable;
 
-public class ScreenDto implements Serializable {
+public class M01Dto implements Serializable {
+	/* ID */
+	private String m_ID;
 	/* 曲名 */
 	private String songTitle;
 	/* アルバム名 */
